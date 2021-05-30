@@ -3,12 +3,54 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url( 'C:\Users\User\Documents\GitHub\gitpractice\assests\minimalism-digital-art-circle-wallpaper-preview.jpg' ) no-repeat center center fixed;
+    background: url(background.jpg) no-repeat center center fixed;
     background-size: cover;
+}
+.profile-card {
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card-header {
+    background: #c2d1e5
+    padding: 60px 40px;
+}
+.picture {
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #fe793d, #fbc6d0);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;   
+}
+@keyframes animated-gradient{
+    25%{
+        background-position: left bottom;
+    }
+    50%{
+        background-position: right bottom;
+    }
+    75%{
+        background-position: right top;
+}
+    100%{
+        background-position: left top;
+}
+}
+
+.picture img {
+    display: block;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
 }
