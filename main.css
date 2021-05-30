@@ -5,6 +5,7 @@
     font-size: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
+    
 }
 body {
     display: flex;
@@ -13,6 +14,7 @@ body {
     height: 100vh;
     background: url(background.jpg) no-repeat center center fixed;
     background-size: cover;
+    filter: blur();
 }
 .profile-card {
     width: 600px;
@@ -72,4 +74,41 @@ body {
 .contact-btn:hover{
     background: #fe793d;
     color: beige;
+}
+ul , li {
+    list-style: none outside none;
+    
+}
+
+.interests{
+    display: inline-block;
+    padding: 5px 10px;
+    border:  #fe793d solid;
+    margin: auto;
+    
+}
+.border {
+    border-bottom: 2px solid;
+    color: #fe793d;
+    margin-bottom: 5px;
+}
+    
+li::before {
+    content: "\2332";
+}
+li {
+    text-align: left;
+}
+.desc {
+    margin-bottom: 10px;
+    padding: 0;
+    border: #fe793d solid;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+.name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
 }
