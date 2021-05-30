@@ -15,14 +15,15 @@ body {
     background-size: cover;
 }
 .profile-card {
-    width: 400px;
+    width: 600px;
+    height: auto;
     text-align: center;
     border-radius: 8px;
     overflow: hidden;
 }
 .card-header {
-    background: #c2d1e5
-    padding: 60px 40px;
+    background: #002E3F;
+    padding: 40px 70px;
 }
 .picture {
     display: inline-block;
@@ -53,4 +54,22 @@ body {
     width: 200px;
     margin: auto;
     border-radius: 50%;
+}
+.sm{
+    margin-top: 15px;
+}
+.sm :hover{
+    color: #fe793d;
+}
+.contact-btn {
+    display: inline-block;
+    padding: 12px 50px;
+    color: #fe793d;
+    border: 2px solid #fe793d;
+    margin-top: 16px;
+    transition: .3s linear;
+}
+.contact-btn:hover{
+    background: #fe793d;
+    color: beige;
 }
