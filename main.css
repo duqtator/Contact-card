@@ -100,6 +100,7 @@ li {
     text-align: left;
 }
 .desc {
+    display: inline-block;
     margin-bottom: 10px;
     padding: 0;
     border: #fe793d solid;
