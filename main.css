@@ -17,7 +17,7 @@ body {
     color: cornsilk;
 }
 .profile-card {
-    width: 600px;
+    width: 50vh;
     height: auto;
     text-align: center;
     border-radius: 8px;
@@ -26,6 +26,7 @@ body {
 .card-header {
     background: #002E3F;
     padding: 40px 70px;
+    
 }
 .picture {
     display: inline-block;
@@ -83,8 +84,9 @@ ul , li {
 .interests{
     display: inline-block;
     padding: 5px 10px;
-    border:  #fe793d solid;
+    border:  solid #fe793d;
     margin: auto;
+    animation: animated-gradient 2s linear infinite;
     
 }
 .border {
@@ -101,11 +103,11 @@ li {
 }
 .desc {
     display: inline-block;
-    margin-bottom: 10px;
-    padding: 0;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 10px 15px;
     border: #fe793d solid;
-    margin-left: 85px;
-    margin-right: 85px;
+    
 }
 .name {
     margin-top: 20px;
